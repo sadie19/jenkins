@@ -17,7 +17,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main', 
-                    url: 'https://github.com/sushilicp/html-demo.git',
+                    url: 'https://github.com/sadie19/jenkins.git',
                     credentialsId: ''
             }
         }
